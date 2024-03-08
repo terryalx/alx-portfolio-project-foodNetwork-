@@ -1,0 +1,133 @@
+body {
+  background: #F8A434;
+  font-family: 'Lato', sans-serif;
+  color: #FDFCFB;
+  text-align: center;
+  /* overflow: hidden; */
+}
+
+
+form {
+  width: 75%;
+  height: auto;
+  margin: 7% auto;
+}
+
+
+.header {
+  font-size: 80px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+
+.description {
+  font-size: 45px;
+  letter-spacing: 1px;
+  line-height: 1.3em;
+  margin: -2px 0 45px;
+}
+
+
+.input {
+  display: flex;
+  align-items: first baseline;
+}
+
+
+.button {
+  height: auto;
+  border: none;
+}
+
+#name {
+  width: 100%;
+  height: auto;
+  background: #FDFCFB;
+  font-family: inherit;
+  color: #737373;
+  font-size: 45px;
+  letter-spacing: 1px;
+  text-indent: 5%;
+  border-radius: 5px 5px 5px 5px;
+}
+
+#address {
+  width: 100%;
+  height: auto;
+  background: #FDFCFB;
+  font-family: inherit;
+  color: #737373;
+  font-size: 45px;
+  letter-spacing: 1px;
+  text-indent: 5%;
+  border-radius: 5px 5px 5px 5px;
+}
+
+#email {
+  width: 100%;
+  height: auto;
+  background: #FDFCFB;
+  font-family: inherit;
+  color: #737373;
+  font-size: 45px;
+  letter-spacing: 1px;
+  text-indent: 5%;
+  border-radius: 5px 5px 5px 5px;
+}
+
+#submit {
+  width: 100%;
+  height: 65px;
+  background: #E86C8D;
+  font-family: inherit;
+  font-size: 35px;
+  font-weight: bold;
+  color: inherit;
+  letter-spacing: 1px;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  transition: background .3s ease-in-out;
+}
+
+
+#submit:hover {
+  height: auto;
+  background: #d45d7d;
+}
+
+
+input:focus {
+  outline: none;
+  outline: 2px solid #E86C8D;
+  box-shadow: 0 0 2px #E86C8D;
+}
+
+
+.more-info {
+  font-size: 85px;
+  letter-spacing: 1px;
+  line-height: 1.3em;
+  /* margin: -2px 0 45px; */
+  color: #1b1a1a;
+}
+
+#join 
+{
+    width: 100%;
+    height: 90px;
+    background: #E86C8D;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 55px;
+    color: inherit;
+    letter-spacing: 1px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: background .3s ease-in-out;
+}
+  
+#join:hover 
+{
+    background: #d45d7d;
+}

@@ -1,0 +1,51 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Subscribe</title>
+    <!-- <link rel="stylesheet" href="css/form.css"> -->
+    <link href="{% static 'mobile/assets/css/form.css' %}" rel="stylesheet" />
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+    <form action="#" method="post" name="sign up for beta form">
+        {% csrf_token %}
+        <div class="description">
+            {% if form.errors %}
+            <div class="error-message">
+                <ul style="list-style: none;">
+                    {% for field in form %}
+                    {% for error in field.errors %}
+                    <li style="list-style: none; color: red;">{{ error }}</li>
+                    {% endfor %}
+                    {% endfor %}
+                </ul>
+            </div>
+            {% endif %}
+        </div>
+        <div class="header">
+            <p>Sign Up For Deals</p>
+        </div>
+        <div class="description">
+            <p>
+                Join kuwiya's mailling list to get the hotest and latest discount deals on your favourite fine dining
+                restaurant
+            </p>
+        </div>
+        <div class="input column">
+            <input type="text" class="button" id="email" name="email" placeholder="Emain">
+            <input type="submit" class="button" id="submit" value="SIGN UP">
+        </div>
+    </form>
+
+    <div class="description">
+        <a href="{% url 'index' %}">HOME<i class="fa-duotone fa-house"></i></a>
+    </div>
+
+</body>
+
+</html>

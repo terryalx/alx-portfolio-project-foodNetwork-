@@ -1,0 +1,126 @@
+body 
+{
+    background: #F8A434;
+    font-family: 'Lato', sans-serif;
+    color: #FDFCFB;
+    text-align: center;
+    /* overflow: hidden; */
+  }
+  
+  
+  form {
+    width: 450px;
+    margin: 7% auto;
+  }
+  
+  
+  .header {
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+  }
+  
+  
+  .description {
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 1.3em;
+    margin: -2px 0 45px;
+  }
+  
+  .more-info {
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 1.3em;
+    /* margin: -2px 0 45px; */
+    color: #1b1a1a;
+  }
+  
+  .input {
+    display: flex;
+    align-items: first baseline;
+  }
+  
+  
+  .button {
+    height: 44px;
+    border: none;
+  }
+  
+  #name {
+    width: 100%;
+    background: #FDFCFB;
+    font-family: inherit;
+    color: #737373;
+    letter-spacing: 1px;
+    text-indent: 5%;
+    border-radius: 5px 5px 5px 5px;
+  }
+  
+  #address {
+    width: 100%;
+    background: #FDFCFB;
+    font-family: inherit;
+    color: #737373;
+    letter-spacing: 1px;
+    text-indent: 5%;
+    border-radius: 5px 5px 5px 5px;
+  }
+
+  #email {
+    width: 100%;
+    background: #FDFCFB;
+    font-family: inherit;
+    color: #737373;
+    letter-spacing: 1px;
+    text-indent: 5%;
+    border-radius: 5px 5px 5px 5px;
+  }
+  
+  #submit {
+    width: 25%;
+    height: 46px;
+    background: #E86C8D;
+    font-family: inherit;
+    font-weight: bold;
+    color: inherit;
+    letter-spacing: 1px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: background .3s ease-in-out;
+  }
+  
+  
+  #submit:hover {
+    background: #d45d7d;
+  }
+  
+  
+input:focus 
+{
+    outline: none;
+    outline: 2px solid #E86C8D;
+    box-shadow: 0 0 2px #E86C8D;
+}
+  
+  
+  
+#join 
+{
+    width: 100%;
+    height: 50px;
+    background: #E86C8D;
+    font-family: inherit;
+    font-weight: bold;
+    color: inherit;
+    letter-spacing: 1px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: background .3s ease-in-out;
+}
+  
+  
+#join:hover 
+{
+    background: #d45d7d;
+}

@@ -1,0 +1,329 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Welcome</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&amp;display=swap"
+    rel="stylesheet">
+
+  <!-- ===============================================-->
+  <!-- Stylesheets -->
+  <!-- ===============================================-->
+  <link href="{% static 'desktop/assets/css/theme.css' %}" rel="stylesheet" />
+  <!--  -->
+  <link rel="stylesheet" href="{% static 'desktop/css/style.css' %}">
+  <!-- Responsive CSS -->
+  <link rel="stylesheet" href="{% static 'desktop/css/responsive.css' %}">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="{% static 'desktop/css/custom.css' %}">
+  <!--  -->
+
+</head>
+
+<body>
+
+  <!-- ===============================================-->
+  <!--    Main Content-->
+  <!-- ===============================================-->
+  <main class="main" id="top">
+
+    <!-- Header -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" data-navbar-on-scroll="data-navbar-on-scroll">
+      <div class="container">
+        <a class="navbar-brand d-inline-flex" href="{% url 'index' %}">
+          <!--logo image-->
+          <!-- <img class="d-inline-block" src="{% static 'assets/img/gallery/logo.svg' %}" alt="logo" /> -->
+          <span class="text-1000 fs-3 fw-bold ms-2 text-gradient">kuwiya</span>
+        </a>
+        <marquee>
+          Get up to 50% discount everytime you eat at your favourite restaurant..
+          <span class="fs-1 text-danger">Subscribe for discounts and more</span>
+        </marquee>
+      </div>
+      </div>
+    </nav>
+
+    <!-- Start slides : HERO -->
+
+    <div id="slides" class="cover-slides">
+      <ul class="slides-container">
+        <li class="text-center">
+          <img src="{% static 'desktop/images/slider-01.jpg' %}" alt="">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <h1 class="m-b-20"><strong>Hurry! Welcome To <br> kuwiya</strong></h1>
+                <p><a class="btn btn-lg btn-circle btn-outline-new-white" href="{% url 'subscribe' %}">Subscribe</a></p>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="text-center">
+          <img src="{% static 'desktop/images/slider-02.jpg' %}" alt="">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <h1 class="m-b-20"><strong>SAVE UP TO 50% OFF <br> EVERY TIME YOU EAT OUT</strong></h1>
+                <p><a class="btn btn-lg btn-circle btn-outline-new-white" href="{% url 'subscribe' %}">Subscribe</a></p>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="text-center">
+          <img src="{% static 'desktop/images/slider-03.jpg' %}" alt="">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <h1 class="m-b-20"><strong>Best fine <br> dining restarants</strong></h1>
+                <p><a class="btn btn-lg btn-circle btn-outline-new-white" href="{% url 'subscribe' %}">Subscribe</a></p>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+      <div class="slides-navigation">
+        <a href="#" class="next"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
+        <a href="#" class="prev"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
+      </div>
+    </div>
+
+    <!-- End slides : HERO -->
+
+    <section class="pb-2 pt-2">
+
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="card card-span mb-3">
+              <div class="card-body py-0">
+                <div class="row justify-content-center hover-top-shadow">
+                  <div class="col-md-7 col-xl-5 col-xxl-4 p-4 p-lg-5">
+                    <h1 class="card-title mt-xl-5 mb-4">
+                      <span class="text-primary">About Us</span>
+                    </h1>
+                    <p class="fs-1">
+                      KUWIYA is a dynamic discount finder application designed to cater to the needs of food enthusiasts
+                      and restaurant owners alike.
+                      Founded with the passion for enhancing dining experiences and fostering stronger connections
+                      between food lovers and eateries,
+                      KUWIYA serves as a vibrant community hub where individuals can discover enticing discounts,
+                      participate in giveaways,
+                      and stay informed about the latest culinary offerings.
+                    </p>
+                  </div>
+                  <div class="col-md-7 col-xl-5 col-xxl-4 p-4 p-lg-5">
+                    <h1 class="card-title mt-xl-5 mb-4">
+                      <span class="text-primary">Vision</span>
+                    </h1>
+                    <p class="fs-1">
+                      At KUWIYA, our vision is to revolutionize the way people discover and
+                      engage with discounts in the food industry. We aspire to become the go-to platform for foodies
+                      seeking
+                      exciting deals and for restaurant owners aiming to attract and retain loyal customers. By
+                      leveraging technology and fostering a
+                      sense of community, we envision a future where everyone can indulge in delightful dining
+                      experiences without breaking the bank.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- end of .container-->
+
+    </section>
+
+    <section class="py-0">
+
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="card card-span mb-3">
+              <div class="card-body py-0">
+                <div class="row justify-content-center hover-top-shadow">
+
+                  <div class="col-md-7 col-xl-5 col-xxl-7 p-4 p-lg-5">
+                
+                      <span class="text-start fw-bold"> Join KUWIYA Today </span>
+
+                      <br>
+                      
+                      Unlock your restaurant's full potential with KUWIYA! 
+                      Join our vibrant platform for <span class="text-danger fw-bold">free</span> today. 
+                      Connect with eager diners, showcase your culinary expertise, and let's succeed together,
+                      because when your restaurant succeeds, we succeed.
+                      
+                    <div class="d-grid bottom-0">
+                      <a class="btn btn-lg btn-primary mt-xl-6" href="{% url 'join' %}">Join KUWIYA Today</a>
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div><!-- end of .container-->
+
+    </section>
+
+    <!-- end of .container-->
+    <!-- <section> close ============================-->
+    <!-- ============================================-->
+
+    <section class="py-0">
+
+      <div class="bg-holder"
+        style="background-image: url('{% static 'desktop/assets/img/gallery/cta-two-bg.png' %}');background-position: center; background-size: cover;">
+      </div>
+
+      <!--/.bg-holder-->
+
+      <div class="container">
+        <div class="row flex-center">
+          <div class="col-xxl-9 py-7 text-center">
+            <h1 class="fw-bold mb-4 text-white fs-6">
+              SAVE UP TO 50% OFF EVERY TIME YOU EAT OUT
+            </h1>
+            <h1 class="fw-bold mb-4 text-white fs-6">Subscribe for coupuns </h1><a class="btn btn-danger"
+              href="{% url 'subscribe' %}">
+              Subscribe<i class="fas fa-chevron-right ms-2"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <section class="py-0 pt-7 bg-1000">
+
+      <div class="container">
+        <div class="row justify-content-lg-between">
+
+          <div class="col-6 col-md-4 col-lg-3 col-xxl-2 mb-3">
+            <h5 class="lh-lg fw-bold text-white">About</h5>
+            <ul class="list-unstyled mb-md-4 mb-lg-0">
+              <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">About Us</a></li>
+            </ul>
+          </div>
+
+          <div class="col-6 col-md-4 col-lg-3 col-xxl-2 col-lg-3 mb-3">
+            <h5 class="lh-lg fw-bold text-white">CONTACT</h5>
+            <ul class="list-unstyled mb-md-4 mb-lg-0">
+              <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">Help &amp; Support</a></li>
+            </ul>
+          </div>
+
+          <div class="col-6 col-md-4 col-lg-3 col-xxl-2 mb-3">
+            <h5 class="lh-lg fw-bold text-white">LEGAL</h5>
+            <ul class="list-unstyled mb-md-4 mb-lg-0">
+              <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">Terms &amp; Conditions</a></li>
+            </ul>
+          </div>
+
+          <div class="col-6 col-md-4 col-lg-3 col-xxl-2 mb-3">
+            <h5 class="lh-lg fw-bold text-white">Others</h5>
+            <ul class="list-unstyled mb-md-4 mb-lg-0">
+              <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">Affilate &amp; referal</a></li>
+            </ul>
+          </div>
+
+          <div class="col-6 col-md-4 col-lg-3 col-xxl-2 mb-3">
+            <h5 class="lh-lg fw-bold text-500">FOLLOW US</h5>
+            <div class="text-start my-3">
+
+              <a href="https://www.instagram.com/kuwiyahq?igsh=cGVhNmZ3M2N3MXkz&utm_source=qr" target="_blank">
+                <svg class="svg-inline--fa fa-instagram fa-w-14 fs-2 me-2" aria-hidden="true" focusable="false"
+                  data-prefix="fab" data-icon="instagram" role="img" viewBox="0 0 448 512">
+                  <path fill="#BDBDBD"
+                    d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z">
+                  </path>
+                </svg>
+              </a>
+
+              <!-- <a href="#!">
+                <svg class="svg-inline--fa fa-facebook fa-w-16 fs-2 mx-2" aria-hidden="true" focusable="false"
+                  data-prefix="fab" data-icon="facebook" role="img" viewBox="0 0 512 512">
+                  <path fill="#BDBDBD"
+                    d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z">
+                  </path>
+                </svg>
+              </a> -->
+
+              <!-- <a href="#!">
+                <svg class="svg-inline--fa fa-twitter fa-w-16 fs-2 mx-2" aria-hidden="true" focusable="false"
+                  data-prefix="fab" data-icon="twitter" role="img" viewBox="0 0 512 512">
+                  <path fill="#BDBDBD"
+                    d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z">
+                  </path>
+                </svg>
+              </a> -->
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+  </main>
+  <!-- ===============================================-->
+  <!--    End of Main Content-->
+  <!-- ===============================================-->
+
+
+
+  <!-- ===============================================-->
+  <!--    JavaScripts-->
+  <!-- ===============================================-->
+
+  <script src="{% static 'desktop/vendors/@popperjs/popper.min.js' %}"></script>
+  <script src="{% static 'desktop/vendors/bootstrap/bootstrap.min.js' %}"></script>
+  <script src="{% static 'desktop/vendors/is/is.min.js' %}"></script>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=window.scroll"></script>
+  <script src="{% static 'desktop/vendors/fontawesome/all.min.js' %}"></script>
+  <script src="{% static 'desktop/assets/js/theme.js' %}"></script>
+
+  <a href="#" id="back-to-top" title="Back to top" style="display: none;">&uarr;</a>
+
+  <script src="{% static 'desktop/js/jquery-3.2.1.min.js' %}"></script>
+  <script src="{% static 'desktop/js/popper.min.js' %}"></script>
+  <script src="{% static 'desktop/js/bootstrap.min.js' %}"></script>
+
+  <!-- ALL PLUGINS -->
+  <script src="{% static 'desktop/js/jquery.superslides.min.js' %}"></script>
+  <script src="{% static 'desktop/js/images-loded.min.js' %}"></script>
+  <script src="{% static 'desktop/js/isotope.min.js' %}"></script>
+  <script src="{% static 'desktop/js/baguetteBox.min.js' %}"></script>
+  <script src="{% static 'desktop/js/form-validator.min.js' %}"></script>
+  <script src="{% static 'desktop/js/contact-form-script.js' %}"></script>
+  <script src="{% static 'desktop/js/custom.js' %}"></script>
+
+  <input type="hidden" id="screen-size-input" name="screen_size" value="">
+  <script>
+    // Get screen width
+    const screenWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+
+    // Determine screen size and set the value of the hidden input
+    const screenSizeInput = document.getElementById('screen-size-input');
+    if (screenWidth < 768) {  // Example breakpoint for small screens (adjust as needed)
+      screenSizeInput.value = 'small';
+    } else {
+      screenSizeInput.value = 'normal';
+    }
+  </script>
+
+
+</body>
+
+</html>

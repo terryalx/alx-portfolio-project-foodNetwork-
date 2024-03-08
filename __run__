@@ -1,0 +1,31 @@
+git push heroku master
+
+# disabled.. have to reenable when i input static files
+heroku config:set DISABLE_COLLECTSTATIC=1
+
+
+git remote -v
+
+when change is made just push to git and same heroku
+git push heroku master
+
+
+Delete App: Use the following command to delete your app:
+heroku apps:destroy --app APP_NAME
+heroku create APP_NAME
+heroku git:remote -a APP_NAME
+heroku config:set DISABLE_COLLECTSTATIC=1
+git push heroku master
+
+
+
+
+django on mobile
+ipconfig
+ALLOWED_HOSTS = ['<your-ip-address>', '127.0.0.1', 'localhost']
+ALLOWED_HOSTS = ['*']
+python manage.py runserver 172.20.10.2:8000
+http://172.20.10.2:8000
+
+sudo docker build --tag kuwiya-dck .
+
