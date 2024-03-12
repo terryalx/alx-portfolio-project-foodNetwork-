@@ -42,7 +42,7 @@
                 <a class="navbar-brand d-inline-flex" href="{% url 'index' %}">
                     <!--logo image-->
                     <!-- <img class="d-inline-block" src="{% static 'assets/img/gallery/logo.svg' %}" alt="logo" /> -->
-                    <span class="text-1000 fs-3 fw-bold ms-2 text-gradient">kuwiya</span>
+                    <span class="text-1000 fs-3 fw-bold ms-2 text-gradient">foodNetwork</span>
                 </a>
                 <marquee>
                     Get up to 50% discount everytime you eat at your favourite restaurant..
@@ -62,7 +62,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-md-12">
-                                <h1 class="m-b-40"><strong>Welcome To <br> kuwiya</strong></h1>
+                                <h1 class="m-b-40"><strong>Welcome To <br> foodNetwork</strong></h1>
                                 <p class="m-b-40">Subscribe to get 30% discount on all featured resturants this
                                     weekend!!</p>
                                 <!-- link to subscribe -->

@@ -5,7 +5,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>welcome to kuwiya</title>
+  <title>welcome to foodNetwork</title>
   <!-- <link rel="stylesheet" href="css/form.css"> -->
   <link href="{% static 'desktop/assets/css/form.css' %}" rel="stylesheet" />
   <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
@@ -29,18 +29,18 @@
       {% endif %}
     </div>
     <div class="header">
-      <p>Hurry! Welcome to KUWIYA</p>
+      <p>Hurry! Welcome to foodNetwork</p>
     </div>
     <div class="description">
       <p>
-        KUWIYA is an online community space where you get discounted fine dining restaurants,
+        foodNetwork is an online community space where you get discounted fine dining restaurants,
         the best local restaurants around you, inns, and anything food-related. We partner with top restaurants around
         you and deliver unbelievable
         discounts of up to 75% for our community when you eat out.
       </p>
       <br>
       <p>
-        Join kuwiya's waiting list now to get the hottest and latest discount deals on your favorite fine-dining
+        Join foodNetwork's waiting list now to get the hottest and latest discount deals on your favorite fine-dining
         restaurant coming soon....
       </p>
     </div>
@@ -50,7 +50,7 @@
     </div>
     <div class="more-info">
       <p>
-        For more information and to register as a restaurateur kindly send us an email admin@kuwiya.com
+        For more information and to register as a restaurateur kindly send us an email admin@foodNetwork.com
       </p>
     </div>
   </form>
